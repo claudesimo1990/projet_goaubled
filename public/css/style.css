@@ -1,3 +1,29 @@
+nav .logo img{
+
+  width: 150px;
+  margin-top: -12px;
+}
+
+nav .logo{
+    margin-bottom: -200px;
+}
+
+nav .nav-list .list a{
+text-decoration: none;
+color: #8BC73D;
+
+}
+
+.voir{
+  border-radius:40px  ;
+   border: 1px solid #8BC73D; /* Green */
+
+ }
+
+
+
+
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -7,7 +33,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -85,8 +111,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav {
-  padding: 18px 0;
+  padding: 25px 0;
   background: #fff;
+
+
+
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -175,10 +204,12 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 50%;
 }
 .fh5co-nav ul {
+
   padding: 0;
   margin: 0;
 }
 .fh5co-nav ul li {
+
   padding: 0;
   margin: 0;
   list-style: none;
